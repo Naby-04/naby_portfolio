@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  /* border: 1px solid red; */
+}
+/* root */
+:root {
+  --primary-color: #734d12; /* Pour les éléments principaux */
+  --secondary-color: #eb8d4c; /* Pour les accents, comme les icônes et les survols */
+
+  /* Background colors */
+  --bg-dark: #1b1b1b; /* Fond principal sombre pour le thème global */
+  --bg-light: #2c2c2c; /* Pour les sections en surbrillance */
+
+  /* Button colors */
+  --button-bright: #eb8d4c; /* Couleur des boutons brillants */
+  --button-hover: #ff9d5c; /* Couleur des boutons au survol */
+
+  /* Text colors */
+  --text-main: #ffffff; /* Texte principal blanc */
+  --text-accent: #dfdfdf; /* Texte secondaire pour des contrastes légers */
+}
+/* general */
+body {
+  /* height: 100vh; */
+  color: var(--text-main);
+}
+header {
+  height: 100%;
+  background: var(--bg-dark);
+}
+h2 {
+  color: var(--text-main);
+}
+/*------------------ header part ------------------*/
+.nav {
+  position: absolute;
+  right: 0;
+  top: 35%;
+  background: var(--button-bright);
+  color: var(--text-main);
+  border-radius: 20px;
+  padding: 10px 10px;
+}
+.nav i {
+  color: var(--text-main);
+}
+.active {
+  background: var(--bg-dark) !important;
+  /* width: 80%; */
+  /* margin: auto; */
+}
+/* button */
+button {
+  padding: 0;
+}
+.btn-active {
+  padding: 10px 30px;
+  background: var(--button-bright);
+  color: var(--text-main);
+  border: none;
+  border-radius: 20px;
+}
+.btn-active:hover {
+  background: var(--button-hover);
+}
+/*-------------------- About-page --------------------*/
+#v-pills-About .profil-pic {
+  height: 200px;
+  object-fit: cover;
+}
+.about {
+  background: var(--bg-light);
+}
+.about h2 {
+  width: fit-content;
+  padding: 10px 100px;
+  margin: 0 auto;
+  font-size: 60px !important;
+  border: 1px dotted;
+}
