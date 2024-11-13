@@ -33,6 +33,12 @@ header {
 h2 {
   color: var(--text-main);
 }
+hr {
+  border: 1px dashed;
+}
+.talent {
+  font-size: 12px;
+}
 /*------------------ header part ------------------*/
 .nav {
   position: absolute;
@@ -74,9 +80,26 @@ button {
   background: var(--bg-light);
 }
 .about h2 {
-  width: fit-content;
+  /* width: fit-content; */
   padding: 10px 100px;
   margin: 0 auto;
   font-size: 60px !important;
   border: 1px dotted;
+}
+.data-item {
+  font-size: 40px;
+  /* background: var(--bg-dark); */
+}
+#v-pills-About i {
+  font-size: 40px;
+  /* border: 1px solid red; */
+}
+#v-pills-About ul li {
+  font-weight: 700;
+}
+#v-pills-About .actif {
+  color: var(--primary-color);
+}
+h3 span {
+  color: var(--secondary-color);
 }
